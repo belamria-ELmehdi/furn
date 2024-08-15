@@ -1,0 +1,401 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @media only screen and (max-width: 1024px) {
+    /* =========== nav =========== */
+    .bag-div1 {
+      display: block !important;
+    }
+    .bag-div2 {
+      display: none !important;
+    }
+
+    .nbut-ul {
+      display: none !important;
+    }
+
+
+
+    .Ncati-Div {
+      display: none !important;
+    }
+
+    .NSearch-div {
+      display: none !important;
+    }
+    /* =========== header =========== */
+
+    .D-slid {
+      height: 76vh !important;
+    }
+
+    /* section */
+    .Coll-Div1 {
+      gap: 0.5rem !important;
+    }
+    .div1-bstC {
+      grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    }
+    .div2-bstC {
+      height: 50vw !important;
+    }
+
+    .cpro {
+      padding: 0 10px !important;
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+    .bag-i1 {
+      font-size: 2.5vw !important;
+    }
+    .nbutR-i {
+      font-size: 3vw !important;
+    }
+
+    .Pop {
+      width: 45vw !important;
+    }
+    /* =========== header =========== */
+    .img-slid {
+      width: 6vw !important;
+    }
+    .span2-slid {
+      font-size: 32px !important;
+    }
+    .h11-slid {
+      font-size: 32px !important;
+    }
+    .but-slid {
+      font-size: 13px !important ;
+    }
+    .span2-slid {
+      font-size: 21px !important;
+    }
+
+    /* ========== section ========== */
+    .Cate {
+      grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+      justify-items: center !important;
+    }
+
+    .div1-Catefo {
+      height: 40vw !important ;
+      width: 40vw !important ;
+    }
+
+    .div1-bstS {
+      flex-direction: column !important;
+      text-align: center !important;
+    }
+    .h1-bstS {
+      font-size: 20px !important;
+    }
+
+    .div2-bstS {
+      justify-content: center !important;
+      margin-top: 20px !important;
+    }
+    .div1-bstC {
+      grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    }
+    .div2-bstC {
+      height: 68vw !important;
+    }
+
+    .Brn-div1 {
+      grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+      height: auto !important;
+    }
+
+    .Brn-div2 {
+      background-position: center !important;
+    }
+
+    .Coll-Div1 {
+      display: flex !important;
+      flex-direction: column !important;
+    }
+
+    .cpro {
+      height: 45vh !important;
+    }
+
+    .devCard1 {
+      top: 0vh !important;
+      left: -25vh !important;
+    }
+    .devCard {
+      top: 14vh !important ;
+    }
+    .devCard12 {
+      left: 25vh !important;
+    }
+    .Devlir {
+      top: 0vh !important;
+      left: 20vh !important;
+    }
+
+    .DevCA {
+      transform: translate(23%, -11%) !important;
+    }
+    .DevCA2 {
+      transform: translate(3%, -11%) !important;
+    }
+    .DevCA3 {
+      transform: translate(0%, -11%) !important;
+    }
+
+    .Coll-but {
+      display: block !important;
+    }
+
+    /* ofweek */
+
+    .ofweek {
+      grid-template-columns: 1fr !important;
+    }
+
+    .flow-parent {
+      height: 75vw !important;
+    }
+    .ofW-Div1 {
+      /* transform:translateY(-10%) !important */
+    }
+
+    .flow-secend-div {
+      display: flex !important;
+      width: auto !important;
+    }
+  }
+  @media only screen and (max-width: 760px) {
+    .div2-bstC {
+      height: 73vw !important;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    .Log-h1-res {
+      font-size: 5vw !important;
+    }
+    .Log-img-res {
+      width: 4vw !important;
+    }
+
+    .bag-i1 {
+      font-size: 3.5vw !important;
+    }
+
+    .nbutR-i {
+      font-size: 4vw !important;
+    }
+
+    .Pop {
+      width: 100% !important;
+    }
+
+    .ul-BuG {
+      width: 132vh !important;
+    }
+
+    .div-BuG {
+      height: 76vh !important;
+    }
+    .ul2-slid {
+      transform: translate(-50%, 4px) !important;
+    }
+    /* =========== header =========== */
+
+    /* .D-slid {
+      height: 100vh !important;
+    } */
+
+    .img-slid {
+      width: 10vw !important;
+    }
+
+    /* .span1-slid{
+        display: block !important;
+    } */
+
+    .ul-slid {
+      display: none !important;
+    }
+
+    .divCat-slid {
+      display: none !important;
+    }
+    .divCat2-slid {
+      top: -15vw !important;
+    }
+
+    /* ========== section ========== */
+    .div1-Catefo {
+      height: 44vw !important;
+      width: 45vw !important;
+    }
+    .div2-bstC {
+      height: 81vw !important;
+    }
+    .div4-bstC {
+      display: none !important;
+    }
+
+    .bR-tit {
+      text-align: center !important;
+    }
+  }
+
+  @media only screen and (max-width: 375px) {
+    .bag-span {
+      padding-left: 3px !important;
+      padding-right: 3px !important;
+      font-size: 8px !important;
+      right: -7px !important;
+      top: -0px !important;
+    }
+    .nbutR-i {
+      font-size: 5vw !important;
+    }
+    /* =========== header =========== */
+    .img-slid {
+      width: 12vw !important;
+    }
+
+    /* section */
+    .div2-bstC {
+      height: 92vw !important;
+    }
+
+    .cpro {
+      height: 45vh !important;
+    }
+  }
+}
+
+body {
+  background: #f3f2ee;
+  @apply font-a;
+}
+
+ul {
+  /* text-decoration: none; */
+  list-style: none;
+}
+.nav-li {
+  @apply rounded-[20px] py-[4px] px-[9px] cursor-pointer bg-icon;
+}
+
+.BurG {
+  @apply p-[17px] border-t hover:bg-[#e4e4e4];
+}
+.Navcar {
+  @apply py-5 px-3 flex justify-between items-center border-b-2;
+}
+.NPlogi {
+  @apply px-5 outline-none border-[#6e6e6e] border  h-[40px] rounded-[20px];
+}
+
+.from-div {
+  @apply flex flex-col gap-3;
+}
+.nC-a {
+  @apply flex  items-center;
+}
+.nC-span {
+  /*  */
+  @apply text-[14px] group-hover:text-colo1 font-semibold  capitalize;
+}
+
+.nC-img {
+  @apply w-[20px];
+}
+.but-li {
+  @apply border-[5px] rounded-[20px] border-[#6b6b6b]  w-0 h-0 cursor-pointer;
+}
+.act {
+  @apply border-black;
+}
+
+/* ===========ofweekpro=========== */
+.ofw {
+  @apply overflow-hidden bg-white rounded-[10px] shadow-lg h-[57vh] w-[38vh]   relative;
+}
+.ofw2 {
+  @apply overflow-hidden bg-white rounded-[10px] shadow-lg   relative;
+}
+
+/*  */
+
+.i-b {
+  @apply border-2 px-2 py-[5px] rounded-[50px] cursor-pointer text-[#9d9d9d];
+}
+
+.new {
+  @apply top-0 absolute bg-green-700 px-3 py-1 flex m-1 rounded-[20px];
+}
+.sold {
+  @apply top-0 absolute bg-[#f59a57] px-3 py-1 flex m-1 rounded-[20px];
+}
+
+.devCard1 {
+  @apply w-[50vh] h-[72vh] absolute hidden group-hover:block;
+}
+.devCard {
+  @apply w-[40vh] bg-white  rounded-[10px] absolute translate-x-[24px] translate-y-[-50px] overflow-hidden;
+}
+
+.card-art {
+  @apply text-center px-[15px] mb-7;
+}
+.h1Card1 {
+  @apply font-bold capitalize text-[17px] font-c hover:text-[#424242] duration-100;
+}
+.poi {
+  @apply border-[4px] border-white rounded-[20px]  shadow-box1 before:content-[""] before:absolute before:w-4 before:h-4 before:bg-[#ffffff7e]  before:-translate-x-1/2 before:-translate-y-1/2  before:animate-ani1 before:rounded-[20px] hover:z-50;
+}
+
+.h2Card1 {
+  @apply pt-2 font-bold text-colo1;
+}
+
+.BCard1 {
+  @apply mt-3 bg-colo1 rounded-[20px] px-5 py-2 text-white font-semibold hover:bg-[#d85a5a] duration-300;
+}
+
+/* =======================rules=========================== */
+.RuleUL {
+  @apply text-[18px] text-[#969696]  font-medium;
+}
+
+/* =======================art================================ */
+.icon-art {
+  @apply text-[15px] text-white;
+}
+
+/* ===================dec================= */
+.p-Dec {
+  @apply py-5 text-[17px] font-medium text-[#808080];
+}
+
+/* ===================dec================= */
+.F-li {
+  @apply capitalize font-medium text-[#a5a5a5] pb-2;
+}
+
+.tool{
+  @apply w-[30px] 
+}
+.toolS{
+  @apply flex flex-col items-center hover:bg-[#f3f3f3] duration-500 cursor-pointer py-2 
+}
+
+.tooltext{
+  @apply text-[12px] font-[600] text-[#5e5e5e] whitespace-nowrap overflow-hidden text-ellipsis px-[10px] w-full text-center capitalize
+}
